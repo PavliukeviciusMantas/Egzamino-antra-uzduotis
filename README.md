@@ -30,19 +30,19 @@ python main.py
 
 **Naudokite vartotojo sąsają duomenims įvesti ir valdyti.**
 
-*Laukai
+*Laukai*
 
-*Vardas
+*Vardas*
 
-*Pavardė
+*Pavardė*
 
-*El. paštas – turi būti galiojantis formatas (pvz., vardas@pavyzdys.lt, test@example.com)
+*El. paštas – turi būti galiojantis formatas (pvz., vardas@pavyzdys.lt, test@example.com)*
 
-*Telefono numeris – turi prasidėti +370 ir turėti 8 skaitmenis (pvz., +37061234567)
+*Telefono numeris – turi prasidėti +370 ir turėti 8 skaitmenis (pvz., +37061234567)*
 
-*Išvykimo vieta
+*Išvykimo vieta*
 
-*Atvykimo vieta
+*Atvykimo vieta*
 
 **Katalogo struktūra**
 
