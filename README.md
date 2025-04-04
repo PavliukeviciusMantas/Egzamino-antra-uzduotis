@@ -47,6 +47,7 @@ python main.py
 **Katalogo struktūra**
 
 kelioniu_registratorius/
+
 ├── main.py              # Pagrindinis aplikacijos kodas
 
 ├── keliones.db          # SQLite duomenų bazė
