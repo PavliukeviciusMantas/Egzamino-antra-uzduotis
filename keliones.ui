@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Kelionių Registratorius</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelVardas">
+       <property name="text">
+        <string>Vardas</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="vardasInput"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="labelPavarde">
+       <property name="text">
+        <string>Pavardė</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="pavardeInput"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="labelPastas">
+       <property name="text">
+        <string>El. paštas</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="pastasInput"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="labelTelefonas">
+       <property name="text">
+        <string>Telefonas</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="telefonasInput"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="labelIsvykimo">
+       <property name="text">
+        <string>Išvykimo vieta</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="isvykimoInput"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="labelAtvykimo">
+       <property name="text">
+        <string>Atvykimo vieta</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="atvykimoInput"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <item>
+      <widget class="QPushButton" name="pridetiButton">
+       <property name="text">
+        <string>Pridėti</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="atnaujintiButton">
+       <property name="text">
+        <string>Atnaujinti</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="salintiButton">
+       <property name="text">
+        <string>Ištrinti</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="kelionesTable">
+     <column>
+      <property name="text">
+       <string>Vardas</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Pavardė</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>El. paštas</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Telefonas</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Išvykimo vieta</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Atvykimo vieta</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Sukurta</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Atnaujinta</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
