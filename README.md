@@ -21,13 +21,13 @@ Funkcionalumas
 Įsitikinkite, kad turite įdiegtą Python 3.9+.
 
 Įdiekite PyQt6:
-
+```
 pip install PyQt6
-
+```
 Paleiskite programą:
-
+```
 python main.py
-
+```
 **Naudokite vartotojo sąsają duomenims įvesti ir valdyti.**
 
 *Laukai*
@@ -61,9 +61,9 @@ kelioniu_registratorius/
 **UI failas**
 
 Grafinė vartotojo sąsaja (keliones.ui) buvo sukurta naudojant Qt Designer. Jei redaguosite keliones.ui, atnaujinkite keliones.py naudodami komandą:
-
+```
 *pyuic6 keliones.ui -o keliones.py*
-
+```
 **Licencija**
 
 Šis projektas yra skirtas mokymuisi ir gali būti laisvai naudojamas nekomerciniais tikslais.
