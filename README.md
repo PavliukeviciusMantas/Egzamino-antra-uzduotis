@@ -62,7 +62,7 @@ kelioniu_registratorius/
 
 Grafinė vartotojo sąsaja (keliones.ui) buvo sukurta naudojant Qt Designer. Jei redaguosite keliones.ui, atnaujinkite keliones.py naudodami komandą:
 ```
-*pyuic6 keliones.ui -o keliones.py*
+pyuic6 keliones.ui -o keliones.py
 ```
 **Licencija**
 
