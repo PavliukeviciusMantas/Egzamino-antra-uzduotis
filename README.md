@@ -48,15 +48,15 @@ python main.py
 
 kelioniu_registratorius/
 
-        ├── main.py              # Pagrindinis aplikacijos kodas
+├── main.py              # Pagrindinis aplikacijos kodas
 
-        ├── keliones.db          # SQLite duomenų bazė
+├── keliones.db          # SQLite duomenų bazė
 
-        ├── keliones.ui          # Qt Designer sukurtas UI failas
+├── keliones.ui          # Qt Designer sukurtas UI failas
 
-        ├── keliones.py          # Sugeneruotas Python failas iš .ui (naudojant pyuic)
+├── keliones.py          # Sugeneruotas Python failas iš .ui (naudojant pyuic)
 
-        ├── README.md            # Šis dokumentas
+├── README.md            # Šis dokumentas
 
 **UI failas**
 
